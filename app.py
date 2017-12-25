@@ -9,5 +9,10 @@ def hello():
 def admin():
 	return "sorry admin page not yet createds"
 
+@app.route("/about/")
+def admin():
+	return "sorry about page not yet createds"
+
+
 if __name__ == "__main__":
 	app.run(debug=True,port=80)
